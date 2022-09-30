@@ -1,4 +1,13 @@
 // modification of default classes
+
+
+$green-alt: #69BF8C;
+$white: #E8E8E8;
+$background: #171918;
+$background-alt: #202322;
+
+
+
 .container {
   padding: 0;
 }
@@ -8,7 +17,7 @@
 }
 .v-icon.v-icon,
 .v-btn > .v-btn__content .v-icon{
-  color: $green;
+  color: $green-alt;
 }
 .theme--dark.v-navigation-drawer {
   background: #171918;
@@ -24,7 +33,7 @@ a {
 
 // utility classes
 .u-color-green {
-  color: $green;
+  color: $green-alt;
 }
 .u-color-bg {
   background: #171918;

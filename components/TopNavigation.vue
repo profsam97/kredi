@@ -75,7 +75,7 @@ export default {
   font-weight: 600;
   font-size: 18px;
   text-transform: none;
-  caret-color: $green;
+  caret-color: $green-alt;
 }
 .theme--dark.v-app-bar.v-toolbar.v-sheet{
   background-color: $background;

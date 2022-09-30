@@ -109,7 +109,7 @@ export default {
     border-bottom-right-radius: 16px;
     &__info {
       padding: 0 15px;
-      border-left: 3px solid $green;
+      border-left: 3px solid $green-alt;
       &--text {
         &-name {
           font-size: 12px;
