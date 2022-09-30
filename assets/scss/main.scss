@@ -1,0 +1,40 @@
+// modification of default classes
+.container {
+  padding: 0;
+}
+.v-application {
+  font-family: 'Montserrat', sans-serif;
+  color: $white;
+}
+.v-icon.v-icon,
+.v-btn > .v-btn__content .v-icon{
+  color: $green;
+}
+.theme--dark.v-navigation-drawer {
+  background: #171918;
+}
+.theme--dark.v-application {
+  background-color: $background;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+// utility classes
+.u-color-green {
+  color: $green;
+}
+.u-color-bg {
+  background: #171918;
+}
+.u-no-shadow {
+  box-shadow: none;
+  &:before {
+    box-shadow: none;
+  }
+  &:after {
+    box-shadow: none;
+  }
+}
